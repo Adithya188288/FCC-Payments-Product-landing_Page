@@ -29,15 +29,23 @@
   width: 440px;
   height: 260px;
 }
+#hiw:before {
+  display: block;
+  content: "";
+  height: 100px;
+  margin: -100px 0 0;
+}
 
 /* Testimonial container */
 #testimonials #testimonial-container {
   display: block;
 }
 
-/* Testimonial container */
-#testimonials #testimonial-container {
+#testimonials:before {
   display: block;
+  content: "";
+  height: 100px;
+  margin: -100px 0 0;
 }
 
 /* Device width <=512 */
@@ -81,10 +89,24 @@
     height: 160px;
   }
 
+  #hiw:before {
+    display: block;
+    content: "";
+    height: 200px;
+    margin: -200px 0 0;
+  }
+
   /* Testimonials */
   #testimonials {
     position: relative;
     top: 10rem;
+  }
+
+  #testimonials:before {
+    display: block;
+    content: "";
+    height: 200px;
+    margin: -200px 0 0;
   }
 
   #get_started {
